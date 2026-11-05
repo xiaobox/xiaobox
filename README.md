@@ -1,22 +1,33 @@
-# Hi there, I'm Helong (小盒子) 👋
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile-mobile.svg">
+  <img src="./assets/profile.svg" width="100%" alt="Helong（小盒子）｜AI 架构师 · 技术负责人">
+</picture>
 
-**AI Architect & Engineering Leader** ｜ **16+ Years in Distributed Systems, AI Infra & Full-Stack AI Delivery**
+我从 Java 分布式系统做起，有 16 年以上的软件工程经验。现在主要做模型推理平台和企业知识库，也把团队采用 AI 编程时用到的设计规范、代码评审和 API 验收方法整理出来，写在「小盒子的技术分享」。
 
-- 🏗️ **AI Infrastructure & FinOps**: Kubernetes · KServe / Knative · vLLM / Triton · Higress AI Gateway · Langfuse · ONNX Runtime (INT8)
-- 🤖 **AI Application & Knowledge Engineering**: Enterprise RAG (BGE / Reranker / Milvus) · Ragas / Promptfoo Evaluation · FastAPI + React/TypeScript + Redis/arq
-- ⚡ **High-Concurrency Cloud-Native Backend**: Java · Spring Cloud / Dubbo · DDD · Service Mesh (Istio) · ShardingSphere · Kafka / RocketMQ
-- 🚀 **AI-Native Engineering (Vibe Coding)**: Empowering R&D teams with Claude Code / Cursor + Automated CLI Testing workflows
-- 📝 **Tech Blog**: [xiaobox.github.io](https://xiaobox.github.io/) （公众号：「小盒子的技术分享」）
+## 架构案例
 
----
+<p>
+  <a href="https://xiaobox.github.io/p/2025-11-30-ai-mo-xing-tui-li-ping-tai-jia-gou-she-ji-yu-shi-jian/"><img src="./assets/serving.svg" width="236" alt="推理平台设计 · KServe 弹性伸缩与 vLLM 运行时选型"></a>
+  <a href="https://github.com/xiaobox/model-price#how-it-works"><img src="./assets/finops.svg" width="236" alt="模型成本 · 跨云价格归一与供应商报价合并"></a>
+  <a href="https://xiaobox.github.io/p/2025-04-07-rag-xi-tong-xiao-guo-nan-ping-2025-nian-bi-bei-de-rag-ping-g/"><img src="./assets/retrieval.svg" width="236" alt="RAG 评估 · 分开衡量检索召回率与答案忠实度"></a>
+</p>
 
-### 🌟 Featured Open-Source Projects & Engineering Practices
+## 代表作
 
-| Project | Description | Tech / Highlights |
-| :--- | :--- | :--- |
-| 🎨 **[mdeditor](https://github.com/xiaobox/mdeditor)** | 面向创作者与内容团队的高颜值 Markdown 编辑器与多平台高保真富文本发布器 | `670+ ⭐` · WYSIWYG · Multi-Platform |
-| 💰 **[model-price](https://github.com/xiaobox/model-price)** | **AI Model Pricing Aggregator** — 跨云厂商（AWS Bedrock / Azure / OpenAI / Gemini / OpenRouter / xAI）大模型定价聚合与 FinOps 比价工具 | `Python` · AI FinOps · Multi-Channel |
-| 🧭 **[driving-ai-coding](https://github.com/xiaobox/driving-ai-coding)** | **驾驭 AI 编程**：工程团队 AI-Native 编程工作流最佳实践与体系化内训分享 | AI Coding Workflow · Engineering Efficiency |
-| 🧪 **[bruno-demo](https://github.com/xiaobox/bruno-demo)** | 面向 AI 编程 Agent（Claude Code / Cursor）的 Bruno + CLI 自动化 API 读写、运行与自闭环调试示范工程 | Agentic Testing · Bruno CLI |
-| 📚 **[Java-Developer-Knowledge-Base](https://github.com/xiaobox/Java-Developer-Knowledge-Base)** | 10 余年一线架构与技术管理沉淀：从工程师、架构师到技术总监的全生命周期核心技能图谱 | `40+ ⭐` · System Architecture · Leadership |
-| 📄 **[file-preview-demo](https://github.com/xiaobox/file-preview-demo)** | 支持 Word / Excel / PPT / PDF 的跨端在线文档预览方案（AI 辅助全栈极速交付实践） | `Vue.js` · Full-Stack Delivery |
+**[Model Price](https://github.com/xiaobox/model-price) · 大模型选型与成本比较**<br>
+同一个模型在不同云上有不同的名称和计费方式。我把各家报价映射到统一的模型 ID，按每百万 token 比较输入、输出和缓存价格。[在线比价](https://modelprice.boxtech.icu/) · [报价合并实现](https://github.com/xiaobox/model-price/blob/main/backend/services/offering_merger.py)
+
+**[驾驭 AI 编程](https://github.com/xiaobox/driving-ai-coding) · 团队研发工作流**<br>
+从需求规格、任务拆分到代码评审，记录团队在哪些环节交给 Agent、在哪些环节由人把关。配套的 Bruno 示例可以从命令行运行，让 Agent 根据失败的断言修正接口测试。[工作流手册](https://github.com/xiaobox/driving-ai-coding/blob/master/ai-coding-workflow-best-practices.md) · [可运行的 API 测试](https://github.com/xiaobox/bruno-demo)
+
+**[Modern MD Editor](https://github.com/xiaobox/mdeditor) · 开源 Markdown 编辑器**<br>
+我写公众号时经常遇到排版在粘贴后走样，于是做了这个编辑器。它把代码、公式和图表转换为公众号可粘贴的富文本，并保留预览样式。[在线试用](https://mmdeditor.boxtech.icu/)
+
+[![Modern MD Editor Stars](https://img.shields.io/github/stars/xiaobox/mdeditor?style=flat-square&label=Stars&color=197566&logo=github)](https://github.com/xiaobox/mdeditor/stargazers) [![Modern MD Editor Forks](https://img.shields.io/github/forks/xiaobox/mdeditor?style=flat-square&label=Forks&color=386475&logo=github)](https://github.com/xiaobox/mdeditor/forks)
+
+### 开源足迹
+
+<img src="https://github-stats-extended.vercel.app/api?username=xiaobox&amp;show_icons=true&amp;hide_rank=true&amp;hide=contribs&amp;hide_border=true&amp;bg_color=18262B&amp;title_color=F3EBDA&amp;text_color=C2D7D0&amp;icon_color=F5AF75&amp;custom_title=Open%20source%20activity" alt="Helong 的 GitHub 公开贡献统计" width="304">
+
+[技术博客 · 小盒子的技术分享](https://xiaobox.github.io/)　·　[Java 与分布式系统笔记](https://github.com/xiaobox/Java-Developer-Knowledge-Base)
