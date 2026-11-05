@@ -24,7 +24,7 @@
 **[Modern MD Editor](https://github.com/xiaobox/mdeditor) · 开源 Markdown 编辑器**<br>
 我写公众号时经常遇到排版在粘贴后走样，于是做了这个编辑器。它把代码、公式和图表转换为公众号可粘贴的富文本，并保留预览样式。[在线试用](https://mmdeditor.boxtech.icu/)
 
-[![Modern MD Editor Stars](https://img.shields.io/github/stars/xiaobox/mdeditor?style=flat-square&label=Stars&color=197566&logo=github)](https://github.com/xiaobox/mdeditor/stargazers) [![Modern MD Editor Forks](https://img.shields.io/github/forks/xiaobox/mdeditor?style=flat-square&label=Forks&color=386475&logo=github)](https://github.com/xiaobox/mdeditor/forks)
+[![Modern MD Editor Stars](https://img.shields.io/github/stars/xiaobox/mdeditor?style=flat-square&label=Stars&color=197566&logo=github)](https://github.com/xiaobox/mdeditor) [![Modern MD Editor Forks](https://img.shields.io/github/forks/xiaobox/mdeditor?style=flat-square&label=Forks&color=386475&logo=github)](https://github.com/xiaobox/mdeditor/forks)
 
 ### 开源足迹
 
