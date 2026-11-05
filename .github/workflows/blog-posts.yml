@@ -27,6 +27,7 @@ jobs:
         with:
           feed_list: https://xiaobox.github.io/index.xml
           max_post_count: 5
+          tag_post_pre_newline: true
           template: "- <code>$date</code> [$title]($url)$newline"
           date_format: "mm-dd"
           commit_message: "更新最新文章列表"

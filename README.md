@@ -90,7 +90,8 @@
 
 ## ✍️ 最近在写
 
-<!-- BLOG-POST-LIST:START -->- <code>11-05</code> [为什么电脑死机长按电源键要等好几秒？断电前的最后 4 秒，Windows 还在往硬盘写数据](https://xiaobox.github.io/p/2026-11-05-wei-shen-me-dian-nao-si-ji-zhang-an-dian-yuan-jian-yao-deng/)
+<!-- BLOG-POST-LIST:START -->
+- <code>11-05</code> [为什么电脑死机长按电源键要等好几秒？断电前的最后 4 秒，Windows 还在往硬盘写数据](https://xiaobox.github.io/p/2026-11-05-wei-shen-me-dian-nao-si-ji-zhang-an-dian-yuan-jian-yao-deng/)
 - <code>11-05</code> [当单元测试 100% 全绿，你的系统其实已经死了](https://xiaobox.github.io/p/2026-11-05-dang-dan-yuan-ce-shi-100-quan-l-ni-de-xi-tong-qi-shi-yi-jing/)
 - <code>11-04</code> [为什么你在智能客服面前说一万遍「转人工」没用，骂一句脏话却能秒转？](https://xiaobox.github.io/p/2026-11-04-wei-shen-me-ni-zai-zhi-neng-ke-fu-mian-qian-shuo-yi-wan-bian/)
 - <code>10-30</code> [为什么拔 U 盘前非要点「安全弹出」？微软 8 年前就摊牌了，你还在提心吊胆](https://xiaobox.github.io/p/2026-10-30-wei-shen-me-ba-u-pan-qian-fei-yao-dian-an-quan-tan-chu-wei-r/)
