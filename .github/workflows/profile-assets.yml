@@ -1,0 +1,83 @@
+name: 更新主页图片
+
+# 每天生成一次统计卡、语言卡和贪吃蛇动画，强推到 output 分支（只保留最新一次提交）；
+# README 里的图片从 output 分支引用。任何一步取数失败就整体失败，线上保留上一次的图。
+on:
+  schedule:
+    - cron: "40 20 * * *" # 北京时间每天 04:40
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-assets.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 准备输出目录
+        run: mkdir -p dist
+
+      - name: 统计卡（浅色）
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: '{"username":"xiaobox","title_color":"7C3AED","icon_color":"0891B2","text_color":"24292F","bg_color":"00000000","border_color":"D0D7DE","border_radius":10,"locale":"cn","ring_color":"7C3AED","show_icons":"true","rank_icon":"github","hide":"prs,contribs","include_all_commits":"true","custom_title":"GitHub 数据","card_width":410}'
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: 统计卡（深色）
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: '{"username":"xiaobox","title_color":"A78BFA","icon_color":"22D3EE","text_color":"C9D1D9","bg_color":"00000000","border_color":"30363D","border_radius":10,"locale":"cn","ring_color":"A78BFA","show_icons":"true","rank_icon":"github","hide":"prs,contribs","include_all_commits":"true","custom_title":"GitHub 数据","card_width":410}'
+          path: dist/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: 语言卡（浅色）
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: '{"username":"xiaobox","title_color":"7C3AED","icon_color":"0891B2","text_color":"24292F","bg_color":"00000000","border_color":"D0D7DE","border_radius":10,"locale":"cn","layout":"compact","langs_count":4,"hide":"html,css,scss,bru","exclude_repo":"github-slideshow","custom_title":"最常用的语言","card_width":382}'
+          path: dist/langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: 语言卡（深色）
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: '{"username":"xiaobox","title_color":"A78BFA","icon_color":"22D3EE","text_color":"C9D1D9","bg_color":"00000000","border_color":"30363D","border_radius":10,"locale":"cn","layout":"compact","langs_count":4,"hide":"html,css,scss,bru","exclude_repo":"github-slideshow","custom_title":"最常用的语言","card_width":382}'
+          path: dist/langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: 贪吃蛇动画
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#06B6D4&color_dots=#EBEDF0,#DDD6FE,#A78BFA,#7C3AED,#5B21B6
+            dist/snake-dark.svg?color_snake=#22D3EE&color_dots=#161B22,#3B2A6B,#5B3FB8,#7C5CF0,#A78BFA
+
+      - name: 发布到 output 分支
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          ls -la
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "更新主页图片"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
