@@ -96,6 +96,7 @@
 - <code>11-04</code> [为什么你在智能客服面前说一万遍「转人工」没用，骂一句脏话却能秒转？](https://xiaobox.github.io/p/2026-11-04-wei-shen-me-ni-zai-zhi-neng-ke-fu-mian-qian-shuo-yi-wan-bian/)
 - <code>10-30</code> [为什么拔 U 盘前非要点「安全弹出」？微软 8 年前就摊牌了，你还在提心吊胆](https://xiaobox.github.io/p/2026-10-30-wei-shen-me-ba-u-pan-qian-fei-yao-dian-an-quan-tan-chu-wei-r/)
 - <code>10-29</code> [为什么 sshd、dockerd、systemd 的末尾，都带着一个字母 d？](https://xiaobox.github.io/p/2026-10-29-wei-shen-me-sshd-dockerd-systemd-de-mo-wei-dou-dai-zhe-yi-ge/)
+
 <!-- BLOG-POST-LIST:END -->
 
 [全部文章 →](https://xiaobox.github.io/)
