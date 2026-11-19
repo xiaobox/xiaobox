@@ -91,11 +91,11 @@
 ## ✍️ 最近在写
 
 <!-- BLOG-POST-LIST:START -->
+- <code>11-15</code> [当你按下回车后，一行 Prompt 在大模型里到底经历了什么？](https://xiaobox.github.io/p/2026-11-15-dang-ni-an-xia-hui-che-hou-yi-hang-prompt-zai-da-mo-xing-li/)
+- <code>11-12</code> [他写的排序代码每天在几十亿部手机里跑，却藏了一个潜伏 13 年的 Bug](https://xiaobox.github.io/p/2026-11-12-ta-xie-de-pai-xu-dai-ma-mei-tian-zai-ji-shi-yi-bu-shou-ji-li/)
+- <code>11-10</code> [为什么用圆珠笔按不响 Mac 的触控板？](https://xiaobox.github.io/p/2026-11-10-wei-shen-me-yong-yuan-zhu-bi-an-bu-xiang-mac-de-chu-kong-ban/)
+- <code>11-06</code> [花两千块加的 32G 内存，全用来给大厂程序员擦屁股了](https://xiaobox.github.io/p/2026-11-06-hua-liang-qian-kuai-jia-de-32g-nei-cun-quan-yong-lai-gei-da/)
 - <code>11-05</code> [为什么电脑死机长按电源键要等好几秒？断电前的最后 4 秒，Windows 还在往硬盘写数据](https://xiaobox.github.io/p/2026-11-05-wei-shen-me-dian-nao-si-ji-zhang-an-dian-yuan-jian-yao-deng/)
-- <code>11-05</code> [当单元测试 100% 全绿，你的系统其实已经死了](https://xiaobox.github.io/p/2026-11-05-dang-dan-yuan-ce-shi-100-quan-l-ni-de-xi-tong-qi-shi-yi-jing/)
-- <code>11-04</code> [为什么你在智能客服面前说一万遍「转人工」没用，骂一句脏话却能秒转？](https://xiaobox.github.io/p/2026-11-04-wei-shen-me-ni-zai-zhi-neng-ke-fu-mian-qian-shuo-yi-wan-bian/)
-- <code>10-30</code> [为什么拔 U 盘前非要点「安全弹出」？微软 8 年前就摊牌了，你还在提心吊胆](https://xiaobox.github.io/p/2026-10-30-wei-shen-me-ba-u-pan-qian-fei-yao-dian-an-quan-tan-chu-wei-r/)
-- <code>10-29</code> [为什么 sshd、dockerd、systemd 的末尾，都带着一个字母 d？](https://xiaobox.github.io/p/2026-10-29-wei-shen-me-sshd-dockerd-systemd-de-mo-wei-dou-dai-zhe-yi-ge/)
 
 <!-- BLOG-POST-LIST:END -->
 
