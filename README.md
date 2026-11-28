@@ -92,10 +92,10 @@
 
 <!-- BLOG-POST-LIST:START -->
 - <code>11-28</code> [为什么半夜关灯把手机亮度拉到最低，眼睛反而越来越疼？苹果死扛 8 年终于悄悄加了一个开关](https://xiaobox.github.io/p/2026-11-28-wei-shen-me-ban-ye-guan-deng-ba-shou-ji-liang-du-la-dao-zui/)
-- <code>11-15</code> [当你按下回车后，一行 Prompt 在大模型里到底经历了什么？](https://xiaobox.github.io/p/2026-11-15-dang-ni-an-xia-hui-che-hou-yi-hang-prompt-zai-da-mo-xing-li/)
-- <code>11-12</code> [他写的排序代码每天在几十亿部手机里跑，却藏了一个潜伏 13 年的 Bug](https://xiaobox.github.io/p/2026-11-12-ta-xie-de-pai-xu-dai-ma-mei-tian-zai-ji-shi-yi-bu-shou-ji-li/)
-- <code>11-10</code> [为什么用圆珠笔按不响 Mac 的触控板？](https://xiaobox.github.io/p/2026-11-10-wei-shen-me-yong-yuan-zhu-bi-an-bu-xiang-mac-de-chu-kong-ban/)
-- <code>11-06</code> [花两千块加的 32G 内存，全用来给大厂程序员擦屁股了](https://xiaobox.github.io/p/2026-11-06-hua-liang-qian-kuai-jia-de-32g-nei-cun-quan-yong-lai-gei-da/)
+- <code>11-27</code> [为什么两千块的蓝牙耳机连电脑听歌好好的，一开视频会议，音质瞬间糊成座机？](https://xiaobox.github.io/p/2026-11-27-wei-shen-me-liang-qian-kuai-de-lan-ya-er-ji-lian-dian-nao-ti/)
+- <code>11-26</code> [为什么歌单开「随机播放」总在循环那几首？乔布斯当年为了哄你，亲自把算法改假了](https://xiaobox.github.io/p/2026-11-26-wei-shen-me-ge-dan-kai-sui-ji-bo-fang-zong-zai-xun-huan-na-j/)
+- <code>11-25</code> [一首 1989 年的流行歌，只要在笔记本旁边外放，就能把周围的电脑集体震蓝屏](https://xiaobox.github.io/p/2026-11-25-yi-shou-1989-nian-de-liu-xing-ge-zhi-yao-zai-bi-ji-ben-pang/)
+- <code>11-21</code> [手机用完顺手「上滑清后台」？这个习惯，既不会让手机变快也不会省电](https://xiaobox.github.io/p/2026-11-21-shou-ji-yong-wan-shun-shou-shang-hua-qing-hou-tai-zhe-ge-xi/)
 
 <!-- BLOG-POST-LIST:END -->
 
