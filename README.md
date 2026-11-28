@@ -91,11 +91,11 @@
 ## ✍️ 最近在写
 
 <!-- BLOG-POST-LIST:START -->
+- <code>11-28</code> [为什么半夜关灯把手机亮度拉到最低，眼睛反而越来越疼？苹果死扛 8 年终于悄悄加了一个开关](https://xiaobox.github.io/p/2026-11-28-wei-shen-me-ban-ye-guan-deng-ba-shou-ji-liang-du-la-dao-zui/)
 - <code>11-15</code> [当你按下回车后，一行 Prompt 在大模型里到底经历了什么？](https://xiaobox.github.io/p/2026-11-15-dang-ni-an-xia-hui-che-hou-yi-hang-prompt-zai-da-mo-xing-li/)
 - <code>11-12</code> [他写的排序代码每天在几十亿部手机里跑，却藏了一个潜伏 13 年的 Bug](https://xiaobox.github.io/p/2026-11-12-ta-xie-de-pai-xu-dai-ma-mei-tian-zai-ji-shi-yi-bu-shou-ji-li/)
 - <code>11-10</code> [为什么用圆珠笔按不响 Mac 的触控板？](https://xiaobox.github.io/p/2026-11-10-wei-shen-me-yong-yuan-zhu-bi-an-bu-xiang-mac-de-chu-kong-ban/)
 - <code>11-06</code> [花两千块加的 32G 内存，全用来给大厂程序员擦屁股了](https://xiaobox.github.io/p/2026-11-06-hua-liang-qian-kuai-jia-de-32g-nei-cun-quan-yong-lai-gei-da/)
-- <code>11-05</code> [为什么电脑死机长按电源键要等好几秒？断电前的最后 4 秒，Windows 还在往硬盘写数据](https://xiaobox.github.io/p/2026-11-05-wei-shen-me-dian-nao-si-ji-zhang-an-dian-yuan-jian-yao-deng/)
 
 <!-- BLOG-POST-LIST:END -->
 
